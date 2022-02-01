@@ -3,7 +3,7 @@ import "../../App.css";
 
 function Card({ children }) {
   return (
-    <div className="flex rounded shadow  h-full p-5 ">
+    <div className="flex rounded card bg-white h-full w-full p-5 ">
       {children}
     </div>
   );
