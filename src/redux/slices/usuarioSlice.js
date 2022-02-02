@@ -13,12 +13,12 @@ const userSlice = createSlice({
         "shoppingCart": []
     },
     reducers: {
-        addToCart: (state, action) => {
-            state.shoppingCart = [...state.shoppingCart, { ...action.payload, isAdd: true }]
-        },
         loadUser: (state, action) => {
             state.datos = action.payload
         },
+        addToCart: (state, action) => {
+            state.shoppingCart = [...state.shoppingCart, { ...action.payload, isAdd: true }]
+        },  
         removeToCart: (state, action) => {
             state.shoppingCart = state.shoppingCart.filter((item) =>
                 (item.id !== action.payload.id) ? item : null
@@ -28,10 +28,6 @@ const userSlice = createSlice({
             state.shoppingCart = []
             state.datos = { ...state.datos, credit: action.payload }
         },
-
-
-
-
     },
 });
 

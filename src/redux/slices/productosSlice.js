@@ -9,6 +9,9 @@ const productsSlice = createSlice({
         loadProducts: (state, action) => {
             state.Products = action.payload.map((item) => item = { ...item, isAdd: false })
         },
+        resetProducts: (state, action) => {
+            state.Products = state.Products.map((item) => item = { ...item, isAdd: false })
+        },
         productAdd: (state, action) => {
             state.Products = state.Products.map((item) => (action.payload.id === item.id) ? { ...item, isAdd: true } : item)
         },
@@ -17,9 +20,7 @@ const productsSlice = createSlice({
                 (item.id !== action.payload.id) ? item : {...item, isAdd:false}
             )
         },
-        resetProducts: (state, action) => {
-            state.Products = state.Products.map((item) => item = { ...item, isAdd: false })
-        },
+       
     },
 });
 export const { loadProducts, productAdd,productRemove,resetProducts } = productsSlice.actions
