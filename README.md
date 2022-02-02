@@ -11,7 +11,7 @@ La tercera es una pantalla de estado de la compra , si tienes el saldo suficient
 
 ## Como correr la aplicación
  - Clonar el repositorio
- - Instalar las dependecias con `npm install` si usas npm o  `yarn isntall` si usas yarn.
+ - Instalar las dependecias con `npm install` si usas npm o  `yarn install` si usas yarn.
  - Iniciar la aplicación con `npm run start` si usas npm o  `yarn start` si usas yarn.
  - Tu aplicación se ejecutará en el http://localhost:3000/
  
