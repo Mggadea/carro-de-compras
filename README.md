@@ -17,4 +17,4 @@ La tercera es una pantalla de estado de la compra , si tienes el saldo suficient
 ## Tecnologías y librerías usadas
  - [ReactJS](https://es.reactjs.org/)
  - [TailwindCSS](https://tailwindcss.com/)
- - [Redux](https://redux.js.org/) & [Redux Toolk
+ - [Redux](https://redux.js.org/) & [Redux Toolkit](https://redux-toolkit.js.org/)
