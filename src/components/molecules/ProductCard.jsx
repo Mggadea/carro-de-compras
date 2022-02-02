@@ -20,6 +20,8 @@ function ProductCard({ producto }) {
   };
 
   return (
+    <div className="md:w-1/3 sm:w-1/2 my-5 ">
+
     <div className="mx-3  h-full ">
       <Card>
         <div className=" flex items-center flex-col">
@@ -43,6 +45,7 @@ function ProductCard({ producto }) {
           )}
         </div>
       </Card>
+    </div>
     </div>
   );
 }
