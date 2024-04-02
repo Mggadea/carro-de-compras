@@ -1,7 +1,7 @@
 
 # Carro de compras
 
-En esta aplicación consta de 3 pantallas. 
+Esta aplicación consta de 3 pantallas. 
 
 La primera es un catálogo donde podrás agregar productos a un carrito de compras. 
 La segunda es un carrito donde podrás ver los productos agregados y borrarlos  además  si tienes el saldo puedes comprarlos.
